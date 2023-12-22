@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Devoir</title>
+    <script>
+    // Fonction pour rediriger l'utilisateur
+    function redirectToTheme() {
+        var selectBox = document.getElementById("Theme");
+        var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+        
+        if (selectedValue === "Thème 1") {
+            // Redirection vers une autre page
+            window.location.href = "Theme1.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+        if (selectedValue === "Thème 2") {
+            // Redirection vers une autre page
+            window.location.href = "Theme2.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+        if (selectedValue === "Thème 3") {
+            // Redirection vers une autre page
+            window.location.href = "Theme3.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+        if (selectedValue === "Thème 4") {
+            // Redirection vers une autre page
+            window.location.href = "Theme4.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+    }
+    function redirectToSerie() {
+        var selectBox = document.getElementById("Serie");
+        var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+        
+        if (selectedValue === "Thème 1") {
+            // Redirection vers une autre page
+            window.location.href = "S_Theme1.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+        if (selectedValue === "Thème 2") {
+            // Redirection vers une autre page
+            window.location.href = "S_Theme2.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+        if (selectedValue === "Thème 3") {
+            // Redirection vers une autre page
+            window.location.href = "S_Theme3.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+        if (selectedValue === "Thème 4") {
+            // Redirection vers une autre page
+            window.location.href = "S_Theme4.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+    }
+    function redirectToDevoir() {
+        var selectBox = document.getElementById("Devoir");
+        var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+        
+        if (selectedValue === "Devoirs De Controle") {
+            // Redirection vers une autre page
+            window.location.href = "Devoirs De Controle.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+        if (selectedValue === "Devoirs De Synthèse") {
+            // Redirection vers une autre page
+            window.location.href = "Devoirs De Synthèse.html";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+    }
+     function redirectToExtrait() {
+        var selectBox = document.getElementById("Extrait");
+        var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+        
+        if (selectedValue === "Bacalouréat 2023") {
+            // Redirection vers une autre page
+            window.location.href = "economie_nr.pdf";  // Remplacez "lien-de-votre-page.html" par le lien réel de votre page
+        }
+    }
+</script>
+</head>
+<body>
+    <header>
+        <h1>Admis Economie</h1>
+        <nav>
+            <ul>
+                <li>
+                    <select id="Theme" class="box" onchange="redirectToTheme()">
+                        <option>Cours</option>
+                        <option>Thème 1</option>
+                        <option>Thème 2</option>
+                        <option>Thème 3</option>
+                        <option>Thème 4</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="Serie" class="box" onchange="redirectToSerie()">
+                        <option>Series</option>
+                        <option>Thème 1</option>
+                        <option>Thème 2</option>
+                        <option>Thème 3</option>
+                        <option>Thème 4</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="Devoir" class="box" onchange="redirectToDevoir()">
+                        <option>Devoirs</option>
+                        <option>Devoirs De Controle</option>
+                        <option>Devoirs De Synthèse</option>
+                    </select>
+                </li>
+                <li>
+                    <select id="Extrait" class="box" onchange="redirectToExtrait()">
+                        <option>Extrait BAC</option>
+                        <option><a href="economie_nr.pdf">Bacalouréat 2023</a></option>
+                    </select>
+                </li>
+                <li>
+                    <select class="box">
+                        <option>Proffeseur</option>
+                        <option>Vide</option>
+                    </select>
+                </li>
+                <li class="box"><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div id="haut">
+            <img src="Alaouia.jpg">
+        </div>
+        <table  >
+            <tr>
+                <td>
+                    <div class="Photos">
+                        <img src="Photos/Rayen.jpg">
+                        <p >Rayen Nakachi</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="Photos">
+                        <img src="Photos/Fatma.jpg">
+                        <p >Fatma Khaloufi</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="Photos">
+                        <img src="Photos/Hend.jpg">
+                        <p >Hend Bouhoula</p>
+                    </div>
+                </td>
+           
+                <td>
+                    <div class="Photos">
+                        <img src="Photos/Youssef.jpg">
+                        <p >Youssef Feres</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="Photos">
+                        <img src="Photos/Chaima.jpg">
+                        <p >Chaima Bouhoula</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="Photos">
+                        <img src="Photos/Mariem.jpg">
+                        <p >Mariem Trabelsi</p>
+                    </div>
+                </td>
+                
+           
+                <td></td>
+                <td>
+                    <div class="Photos">
+                        <img src="Photos/Amine.jpg">
+                        <p >Amine Fathala</p>
+                    </div>
+                </td>
+                
+            </tr>
+        </table>
+    </section>
+ <footer>
+        <h1 id="Contact">Contact</h1>
+        <pre id="Con">    Instagram
+    Facebook
+    Email</pre>
+    </footer>
+</body>
+</html>
