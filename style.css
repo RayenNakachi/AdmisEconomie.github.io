@@ -74,17 +74,35 @@ footer {
         border-radius: 5px;
         box-shadow: 4px 4px #ccc;
       }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
+    /* Adjust styles for this screen size here */
+
     nav ul {
-        flex-direction: column; /* Ajuste la direction pour empiler les éléments */
-        height: auto; /* Supprime la hauteur fixe */
+        flex-direction: column; /* Stack the navigation items vertically */
+        height: auto; /* Remove fixed height */
     }
 
     nav ul li {
-        margin: 10px 0; /* Espacement pour les petits écrans */
+        margin: 10px 0; /* Adjust margin for individual nav items */
     }
 
     .Photos img {
-        width: 80px; /* Réduit davantage la taille de l'image */
+        width: 70px; /* Reduce the image width for smaller screens */
+        margin: 5px; /* Adjust margin around the image */
+    }
+
+    .Photos p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    #Con {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .box {
+        width: 100%; /* Make the box full width for better mobile display */
+        height: 35px; /* Adjust height for the input box */
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 5px; /* Adjust padding for better display */
     }
 }
