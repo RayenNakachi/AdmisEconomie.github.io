@@ -105,8 +105,8 @@ footer {
 
     .box {
         width: 100%; /* Make the box full width for better mobile display */
-        height: 35px; /* Adjust height for the input box */
-        font-size: 14px; /* Adjust font size for smaller screens */
+        height: 55px; /* Adjust height for the input box */
+        font-size: 40px; /* Adjust font size for smaller screens */
         padding: 5px; /* Adjust padding for better display */
     }
 }
