@@ -85,13 +85,14 @@ footer {
     }
 
     nav ul li {
-        margin: 10px 0; /* Adjust margin for individual nav items */
+        margin: 10px 0; 
+        /* Adjust margin for individual nav items */
     }
     #haut{
         margin-top: 0px;
     }
     .Photos img {
-        width: 70px; /* Reduce the image width for smaller screens */
+        width: 200px; /* Reduce the image width for smaller screens */
         margin: 5px; /* Adjust margin around the image */
     }
 
@@ -105,8 +106,8 @@ footer {
 
     .box {
         width: 100%; /* Make the box full width for better mobile display */
-        height: 55px; /* Adjust height for the input box */
-        font-size: 40px; /* Adjust font size for smaller screens */
+        height: 600px; /* Adjust height for the input box */
+        font-size: 450px; /* Adjust font size for smaller screens */
         padding: 5px; /* Adjust padding for better display */
     }
 }
